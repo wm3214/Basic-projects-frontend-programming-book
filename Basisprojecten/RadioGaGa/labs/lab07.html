@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style> html {
+        height: 100%;
+        width: 100%;
+        background-color: dimgray;
+        overflow: auto;
+    }
+    body {
+        background-color: #fff;
+        font-size: 30px;
+        font-family: Verdana,Arial, sans-serif;
+        margin: 50px;
+    }
+    div{
+        margin: 0;
+    }
+    #vierkant {
+        width: 300px;
+        height: 200px;
+        background-color: deepskyblue;
+        opacity: 0.5;
+        border: 1px solid;
+        box-shadow: 5px 5px #888888;
+        margin: auto;
+
+
+    }
+    #driehoek {
+        width: 0;
+        height: 0;
+        border-left: 150px solid transparent;
+        border-right: 150px solid transparent;
+        border-bottom: 200px solid darkorange;
+        opacity: 0.8;
+        margin: auto;
+        position: relative;
+        bottom: 0px;
+
+
+
+    }
+    #cirkel {
+        width: 75px;
+        height: 75px;
+        border-radius: 75%;
+        background-color: firebrick;
+        position: relative;
+        right: 0px;
+        top: 0px;
+        float: right;
+    }
+    </style>
+</head>
+<body>
+<div id="vierkant">
+    <div id="cirkel">
+    </div>
+    <div id="driehoek">
+    </div>
+</div>
+
+</body>
+</html>

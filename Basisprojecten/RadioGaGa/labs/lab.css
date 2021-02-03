@@ -1,0 +1,52 @@
+
+#divers1{
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 5px 5px #888888;
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: rgba(255,0,0,0.6);
+
+}
+
+#divers2 {
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 5px 5px #888888;
+    width: 80%;
+    height: 220px;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    background-color: rgba(255,0,0,0.5);
+}
+#divers2:hover {float: right
+}
+
+#divers3 {
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 5px 5px #888888;
+    width: 80%;
+    height: 150px;
+    margin-left: 0%;
+    background-color: rgba(255,0,0,0.4);
+}
+
+#divers4 {
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 5px 5px #888888;
+    width: 80%;
+    height: 100px;
+    margin-left: 0%;
+    background-color: rgba(255,0,0,0.3);
+}
+#divers4 p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
