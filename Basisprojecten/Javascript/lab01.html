@@ -1,0 +1,37 @@
+<html lang="nl">
+<head>
+ <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta name="Author" content="Wouter van Loozenoord">
+    Auteur: wm3214
+    <title> variabelen </title>
+</head>
+<body>
+<h2> lab01 </h2>
+<h3> Factuur </h3>
+
+<script>
+//variabelen
+var klantnaam = prompt("Voer uw eigen naam in: ");
+var aantal =
+parseInt(prompt("Aantal gewenste boeken: "));
+var titel = "javascript";
+var prijs = 29.90;
+var bedrag = prijs * aantal;
+var btw = 0.06 * bedrag;
+var totaal = bedrag + btw;
+//commando's wegschrijven op de browser
+document.write("<br> bedankt voor uw bestelling: " + klantnaam);
+document.write("<br> boektitel is: " + titel);
+document.write("<br> aantal te bestellen: " + aantal);
+document.write("<br> prijs per boek is: " + prijs.toFixed(2));
+document.write("<br> bedrag is: " + bedrag.toFixed(2));
+document.write("<br> BTW is: " + btw.toFixed(2));
+document.write("<br> Totaalbedrag inclusief BTW is: " + totaal.toFixed(2) );
+  </script>
+
+</body>
+</html>
